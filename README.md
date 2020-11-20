@@ -2,8 +2,8 @@
 The aim of the project was to solve any 5 selected problems from the given files:  
 ``sources/reliability.pdf``  
 ``sources/ch17pp.docx``  
-## Problems Solved:    
-1. ch17pp.docx file:
+# Problems Solved:    
+## 1. ch17pp.docx file:
   ```
   Exercise 1:  
   California Instruments, Inc., produces 3,000 computer chips per day.
@@ -15,7 +15,7 @@ The aim of the project was to solve any 5 selected problems from the given files
   If 300 of these chips are used in building a mainframe computer, how many failures of the computer can be expected per month?
   ``` 
 
-2.reliability.pdf file:  
+## 2.reliability.pdf file:  
   ```
   Exercise 3:  
   An industrial machine compresses natural gas into an interstate gas pipeline.
