@@ -7,12 +7,12 @@ The aim of the project was to solve any 5 selected problems from the given files
   ```
   Exercise 1:  
   California Instruments, Inc., produces 3,000 computer chips per day.
-  Three hundred are tested for a period of 500 operating hours each.
-  During the test, six failed: two after 50 hours, two at 100 hours, one at 300 hours, and one at 400 hours.
+  Three hundred are tested for a period of ______ operating hours each.
+  During the test, ______ failed: ______ after ______ hours, ... 
   Find FR(%) and FR(N).  
 
   Exercise 2:  
-  If 300 of these chips are used in building a mainframe computer, how many failures of the computer can be expected per month?
+  If ______ of these chips are used in building a mainframe computer, how many failures of the computer can be expected per month?
   ``` 
 
 ## 2.reliability.pdf file:  
