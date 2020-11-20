@@ -52,3 +52,34 @@ print("Exercise 2:")
 print("Failures per month: ", failures_monthly)
 print("FR(N): ", result3)
 print("----Results----")
+
+#Example Usage:
+# Exercise 1:
+# California Instruments, Inc., produces 3,000 computer chips per day.
+# Three hundred are tested for a period of 500 operating hours each.
+# During the test, six failed: two after 50 hours, two at 100 hours, one at 300 hours, and one at 400 hours.
+# Find FR(%) and FR(N).
+#
+# Exercise 2:
+# If 300 of these chips are used in building a mainframe computer, how many failures of the computer can be expected per month?
+#
+# Enter failures: 6
+# Enter number tested: 300
+# Enter time: 500
+# Select len of array: 4
+# Attempts: 2
+# Time per attempt: 50
+# Attempts: 2
+# Time per attempt: 100
+# Attempts: 1
+# Time per attempt: 300
+# Attempts: 1
+# Time per attempt: 400
+# ----Results----
+# Exercise 1:
+# Failures per number tested:  0.02
+# failures per operating time:  4.054054054054054e-05
+# Exercise 2:
+# Failures per month:  0.02918918918918919
+# FR(N):  8.756756756756756
+# ----Results----
