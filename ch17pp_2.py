@@ -19,12 +19,12 @@ def convert(fN):
     return fN * 24 * 30
 
 def run():
+    problem_desc()
     failed = int(input("Enter failures: "))
     tested = int(input("Enter number tested: "))
     time = int(input("Enter time: "))
     failures_monthly = convert(getFrN(tested,time,failed))
     result3 = failures_monthly * tested
-    problem_desc()
     print("----Results----")
     print("Failures per month: ", failures_monthly)
     print("FR(N): ", result3)
