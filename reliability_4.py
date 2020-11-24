@@ -1,3 +1,12 @@
+'''
+Author: Tymoteusz Mirski
+
+Excercise description:
+What is the highest failure rate for a product if it is to have a reliability
+(or probability of survival) of ______ percent at ______ hours?  Assume that
+the time to failure follows an exponential distribution.
+'''
+
 import numpy as np
 
 def calculate_highest_failure_rate(reliability, hours):
@@ -16,5 +25,4 @@ def run():
     highest_failure_rate = calculate_highest_failure_rate(reliability, hours)
     print()
     print(f'The failure rate must be no higher than {highest_failure_rate:.8f} (failures per hour).')
-
-run()
+    print()

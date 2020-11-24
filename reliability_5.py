@@ -1,3 +1,13 @@
+'''
+Author: Tymoteusz Mirski
+
+Excercise description:
+Suppose that a component we wish to model has a constant failure rate with a
+mean time between failures of ______ hours? Find:
+(a) The reliability function.
+(b) The reliability of the item at ______ hours.
+'''
+
 import math
 
 def calculate_reliability(mtbf):
@@ -26,5 +36,4 @@ def run():
     print()
     print_reliability_function(reliability)
     print_reliability_at_x_hours(reliability, hours)
-
-run()
+    print()
