@@ -1,8 +1,8 @@
 import reliability_3
 import reliability_4
 import reliability_5
-#import ch17pp_1and2
-
+import ch17pp_1
+import ch17pp_2
 
 if __name__ == "__main__":
     while True:
@@ -21,9 +21,8 @@ if __name__ == "__main__":
         elif choice == "3":
             reliability_5.run()
         elif choice == "4":
-            pass
+            ch17pp_1.run()
         elif choice == "5":
-            pass
+            ch17pp_2.run()
         elif choice == "0":
             break
-
