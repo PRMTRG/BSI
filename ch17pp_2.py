@@ -1,8 +1,12 @@
+''' Author: Igor Motowidło '''
+
+
 def problem_desc():
     print("Exercise 2:")
     print("If 300 of these chips are used in building a mainframe computer, how many failures of the computer can be expected per month?")
     print()
 
+    
 def getFrN(tested, time, failed):
     total_time = tested*time
     downtime = 0
@@ -15,8 +19,10 @@ def getFrN(tested, time, failed):
     result = failed/operating_time
     return result
 
+
 def convert(fN):
     return fN * 24 * 30
+
 
 def run():
     problem_desc()
