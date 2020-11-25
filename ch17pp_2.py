@@ -31,6 +31,9 @@ def run():
     print("----Results----")
 
 # EXAMPLE USAGE:
+# Exercise 2:
+# If 300 of these chips are used in building a mainframe computer, how many failures of the computer can be expected per month?
+#
 # Enter failures: 6
 # Enter number tested: 300
 # Enter time: 500
@@ -43,9 +46,6 @@ def run():
 # Time per attempt: 300
 # Attempts: 1
 # Time per attempt: 400
-# Exercise 2:
-# If 300 of these chips are used in building a mainframe computer, how many failures of the computer can be expected per month?
-#
 # ----Results----
 # Failures per month:  0.02918918918918919
 # FR(N):  8.756756756756756
