@@ -1,3 +1,6 @@
+''' Author: Igor Motowidło '''
+
+
 def problem_desc():
     print("Exercise 1:")
     print('California Instruments, Inc., produces 3,000 computer chips per day.')
@@ -23,6 +26,7 @@ def getFrN(tested, time, failed):
     operating_time = total_time - downtime
     result = failed/operating_time
     return result
+
 
 def run():
     problem_desc()
